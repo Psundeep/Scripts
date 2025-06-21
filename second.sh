@@ -2,8 +2,10 @@
 
 #this is variable script 
 
-person1=sunny
-person2=bunny
+echo "enter names"
+
+read -p $person1
+read -p $person2
 
 echo "hello $person1 how are you"
 echo "hi $person2 im doing great how about you"
